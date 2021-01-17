@@ -1,0 +1,7 @@
+{
+  "data": [
+    { "title": "首页", "icon": "mdi-home", "url": "/home" },
+    { "title": "订单", "icon": "mdi-playlist-edit", "url": "/order" },
+    { "title": "我的", "icon": "mdi-account", "url": "/my" }
+  ]
+}

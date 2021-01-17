@@ -9,16 +9,17 @@
     <HomeTopBar />
     <AddressTopBar />
     <CityTopBar />
+    <SearchTopBar />
   </v-app-bar>
 
 </template>
 
 <script>
   import {GET_LOCATION} from "../../store/type";
-  import {mapState} from "vuex";
   import HomeTopBar from "./HomeTopBar";
   import AddressTopBar from "./AddressTopBar";
   import CityTopBar from "./CityTopBar";
+  import SearchTopBar from "./SearchTopBar";
 
   export default {
     name: "TopBar",
@@ -26,6 +27,7 @@
       HomeTopBar,
       AddressTopBar,
       CityTopBar,
+      SearchTopBar,
     },
     created() {
       this.$store.dispatch(GET_LOCATION);

@@ -15,3 +15,14 @@ export const LOAD_CAROUSEL_LIST = 'loadCarouselList';
 
 export const GET_MENU_LIST = 'getMenuList';
 export const LOAD_MENU_LIST = 'loadMenuList';
+
+export const GET_SORT_LIST = 'getSortList';
+export const LOAD_SORT_LIST = 'loadSortList';
+
+export const GET_SHOP_LIST = 'getShopList';
+export const LOAD_SHOP_LIST = 'loadShopList';
+
+export const GET_PRODUCT_DETAILS = 'getProductDetails';
+export const LOAD_PRODUCT_DETAILS = 'loadProductDetails';
+
+

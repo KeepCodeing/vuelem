@@ -5,6 +5,8 @@ import {GET_HOT_CITY, LOAD_HOT_CITY} from "../type";
 import {GET_CITY_LIST, LOAD_CITY_LIST} from "../type";
 import {GET_CAROUSEL_LIST, LOAD_CAROUSEL_LIST} from "../type";
 import {GET_MENU_LIST, LOAD_MENU_LIST} from "../type";
+import {GET_SORT_LIST, LOAD_SORT_LIST} from "../type";
+import {GET_SHOP_LIST, LOAD_SHOP_LIST} from "../type";
 
 export default {
   [GET_NAV_BAR](context) {
@@ -60,5 +62,17 @@ export default {
     request({
       url: '/data/menu_list.json'
     }).then(res => context.commit(LOAD_MENU_LIST, res.data));
+  },
+
+  [GET_SORT_LIST](context) {
+    request({
+      url: '/data/sort_list.json'
+    }).then(res => context.commit(LOAD_SORT_LIST, res.data));
+  },
+
+  [GET_SHOP_LIST](context) {
+    request({
+      url: '/data/shop_list.json'
+    }).then(res => context.commit(LOAD_SHOP_LIST, res.data));
   }
 }

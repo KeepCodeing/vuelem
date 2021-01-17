@@ -51,8 +51,8 @@
     methods: {
       submit() {
         if (this.$refs['login_form'].validate()) {
-          this.$router.replace('/home');
           window.sessionStorage.setItem('login', 'yes');
+          this.$router.replace('/home/main');
         }
       }
     },

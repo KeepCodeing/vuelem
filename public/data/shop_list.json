@@ -1,0 +1,95 @@
+{
+  "data": [
+    {
+      "name": "阿久井皇家餐厅",
+      "quality": true,
+      "rating": 4,
+      "count": 2422,
+      "speed": true,
+      "pay": 135,
+      "send": 60,
+      "far": 3.01,
+      "time": 37,
+      "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg",
+      "id": 1
+    },
+    {
+      "name": "麻里奈的曲奇店",
+      "quality": true,
+      "rating": 4.6,
+      "count": 1919,
+      "speed": true,
+      "pay": 20,
+      "send": 3.5,
+      "far": 1.73,
+      "time": 13,
+      "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/marina.jpg",
+      "id": 2
+    },
+    {
+      "name": "烤RU猪（特色小吃）",
+      "quality": true,
+      "rating": 4.7,
+      "count": 810,
+      "speed": false,
+      "pay": 50,
+      "send": 15,
+      "far": 2.00,
+      "time": 50,
+      "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/ru.jpg",
+      "id": 3
+    },
+    {
+      "name": "万豪顿牌布朗尼",
+      "quality": false,
+      "rating": 4.7,
+      "count": 893,
+      "speed": true,
+      "pay": 33,
+      "send": 2,
+      "far": 1.00,
+      "time": 12,
+      "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/udk_whd.jpg",
+      "id": 4
+    },
+    {
+      "name": "谢谢你特色海鱼店",
+      "quality": true,
+      "rating": 4.5,
+      "count": 1919,
+      "speed": false,
+      "pay": 45,
+      "send": 36,
+      "far": 4.6,
+      "time": 30,
+      "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/thanks.jpg",
+      "id": 5
+    },
+    {
+      "name": "好吃到哭荞麦面",
+      "quality": false,
+      "rating": 4,
+      "count": 5242,
+      "speed": false,
+      "pay": 12,
+      "send": 3,
+      "far": 5.00,
+      "time": 53,
+      "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/udk_qmm.jpg",
+      "id": 6
+    },
+    {
+      "name": "汪仔水馒头",
+      "quality": true,
+      "rating": 3.5,
+      "count": 810,
+      "speed": true,
+      "pay": 33,
+      "send": 4,
+      "far": 3.00,
+      "time": 23,
+      "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/img8.jpg",
+      "id": 7
+    }
+  ]
+}

@@ -4,6 +4,8 @@
     style="box-shadow: none"
     color="primary"
     light
+    fixed
+    v-show="$route.path.includes('/home')"
   >
     <v-btn :to="item.url" style="height: auto;" v-for="item in items" class="white ">
       <span>{{ item.title }}</span>

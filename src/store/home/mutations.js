@@ -1,7 +1,11 @@
-import {LOAD_CAROUSEL_LIST, LOAD_MENU_LIST, LOAD_NAV_BAR} from "../type";
-import {LOAD_LOCATION} from "../type";
-import {LOAD_HOT_CITY} from "../type";
-import {LOAD_CITY_LIST} from '../type'
+import {
+  LOAD_CAROUSEL_LIST,
+  LOAD_MENU_LIST,
+  LOAD_NAV_BAR,
+  LOAD_LOCATION,
+  LOAD_HOT_CITY,
+  LOAD_CITY_LIST, LOAD_SORT_LIST, LOAD_SHOP_LIST
+} from "../type";
 
 export default {
   [LOAD_NAV_BAR](state, payload) {
@@ -26,5 +30,13 @@ export default {
 
   [LOAD_MENU_LIST](state, payload) {
     state.menu_list = payload;
+  },
+
+  [LOAD_SORT_LIST](state, payload) {
+    state.sort_list = payload;
+  },
+
+  [LOAD_SHOP_LIST](state, payload) {
+    state.shop_list = payload;
   }
 }
