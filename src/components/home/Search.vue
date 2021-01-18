@@ -26,29 +26,32 @@
       v-show="search_list.length"
     >
       <v-list>
-        <v-list-item link v-for="item in search_list">
-          <v-row
-            no-gutters
-          >
-            <v-col cols="2">
-              <v-img
-                :src="item.img"
-                height="45"
-                width="45"
-              />
-            </v-col>
-            <v-col cols="6">
-              <v-list-item-content>
-                <v-list-item-title>{{ item.name }}</v-list-item-title>
-              </v-list-item-content>
-            </v-col>
-            <v-col cols="4" class="text-right">
-              <v-list-item-content>
-                <span>评分 {{ item.rating }}</span>
-              </v-list-item-content>
-            </v-col>
-          </v-row>
-        </v-list-item>
+        <template v-for="item in search_list">
+          <v-list-item link  @click="$router.push('/details/' + item.id)" >
+            <v-row
+              no-gutters
+            >
+                <v-col cols="2">
+                  <v-img
+                    :src="item.img"
+                    height="45"
+                    width="45"
+                  />
+                </v-col>
+                <v-col cols="6">
+                  <v-list-item-content>
+                    <v-list-item-title>{{ item.name }}</v-list-item-title>
+                  </v-list-item-content>
+                </v-col>
+                <v-col cols="4" class="text-right">
+                  <v-list-item-content>
+                    <span>评分 {{ item.rating }}</span>
+                  </v-list-item-content>
+                </v-col>
+
+            </v-row>
+          </v-list-item>
+        </template>
       </v-list>
     </v-card>
   </div>
@@ -76,7 +79,7 @@
         // 瞎写搜索算法，注意name为空会返回全部商家，所以要特判一下
         if (!name) return;
         for (let i of this.shop_list) {
-          if (i.name.includes(name)) this.search_list.push({name: i.name, img: i.img, rating: i.rating});
+          if (i.name.includes(name)) this.search_list.push({id: i.id, name: i.name, img: i.img, rating: i.rating});
         }
       }
     },

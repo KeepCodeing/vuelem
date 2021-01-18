@@ -11,7 +11,7 @@
         "send": 60,
         "far": 3.01,
         "time": 37,
-        "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg",
+        "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/banner_wxy.jpg",
         "id": 1
       },
       "2": {
@@ -94,14 +94,69 @@
       }
     },
     "product_list": {
-      "list": ["红包", "汉堡小子", "汉堡类", "养生粥", "小吃类", "手抓饼", "奶茶类", "果汁类", "甜品类", "冰品类", "套餐类", "汤", "主食", "酒水", "雪菜", "川菜", "健康时蔬", "包子", "油条", "烤猪"],
+      "list": [
+        "汉堡肉",
+        "布丁甜点",
+        "果蔬拼盘",
+        "特色意面",
+        "酒水饮料",
+        "手抓饼",
+        "奶茶类",
+        "果汁类",
+        "甜品类",
+        "冰品类",
+        "套餐类",
+        "汤",
+        "主食",
+        "酒水",
+        "雪菜",
+        "川菜",
+        "健康时蔬",
+        "包子",
+        "油条",
+        "烤猪"
+      ],
       "product": [
-        {"title":  "汉堡肉", "count": 114, "rating": 0.98, "pay": 19, "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg"},
-        {"title":  "酱意面", "count": 56, "rating": 0.89, "pay": 11, "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg"},
-        {"title":  "美味布丁", "count": 134, "rating": 0.95, "pay": 35, "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg"},
-        {"title":  "特制迎宾酒", "count": 152, "rating": 0.99, "pay": 65, "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg"},
-        {"title":  "蔬菜拼盘", "count": 356, "rating": 0.88, "pay": 13, "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg"}
-
+        {
+          "title": "汉堡肉",
+          "count": 114,
+          "rating": 0.98,
+          "pay": 19,
+          "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg",
+          "intro": "量大味美，饱餐首选"
+        },
+        {
+          "title": "酱意面",
+          "count": 56,
+          "rating": 0.89,
+          "pay": 11,
+          "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/ym.jpg",
+          "intro": "意大利面与炸酱的美妙结合"
+        },
+        {
+          "title": "美味布丁",
+          "count": 134,
+          "rating": 0.95,
+          "pay": 35,
+          "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/bd.jpg",
+          "intro": "餐后小甜点"
+        },
+        {
+          "title": "特制迎宾酒",
+          "count": 152,
+          "rating": 0.99,
+          "pay": 65,
+          "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/ybj.jpg",
+          "intro": "餐前开胃酒"
+        },
+        {
+          "title": "蔬菜一杯",
+          "count": 356,
+          "rating": 0.88,
+          "pay": 13,
+          "img": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/scyb.jpg",
+          "intro": "蔬菜条蘸着才好吃"
+        }
       ]
     },
     "order": [],

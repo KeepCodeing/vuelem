@@ -12,12 +12,17 @@
           depressed
           tile
           text
-        ><v-icon color="black" @click="$router.back()">mdi-keyboard-backspace</v-icon></v-btn>
+        ><v-icon
+          color="white"
+          @click="$router.back()"
+
+        >mdi-keyboard-backspace</v-icon></v-btn>
       </div>
       <v-img
         class="white--text align-end"
         height="150px"
         :src="details['banner'][id].img"
+        gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)"
       />
       <v-card-text>
         <v-row
