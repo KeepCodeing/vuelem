@@ -2,7 +2,6 @@
   <div>
     <v-card
       class="mx-auto"
-      max-width="400"
       tile
       flat
       v-if="details['banner'].length !== 0"

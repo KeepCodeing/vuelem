@@ -7,7 +7,8 @@ export default {
     cart_list: {
       total_pay: 0,
       total_count: 0,
-    }
+    },
+    product_drawer: false,
   },
   actions,
   mutations,

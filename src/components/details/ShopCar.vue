@@ -17,6 +17,7 @@
         >
           <div
             class="cart_icon_box"
+            @click="$store.state.details_store.product_drawer = !$store.state.details_store.product_drawer"
           >
             <div
               class="cart_icon"
@@ -28,7 +29,8 @@
               >
                 <v-icon
                   :class="cart_list['total_pay'] >= min_pay ? 'white--text' : 'grey--text'"
-                >mdi-cart-variant</v-icon>
+                  clas="font-weight-thin"
+                >mdi-cart-plus</v-icon>
               </p>
             </div>
             <div
@@ -69,6 +71,11 @@
 
   export default {
     name: "ShopCar",
+    created() {
+      // this.product_list = false;
+    },
+    components: {
+    },
     computed: {
       // 用来计算当今用户加入购物车的商品的价格和是否大于最低起送价，不过加了两个总计变量之后就不需要了
       isPayOk: function() {
@@ -81,6 +88,7 @@
       // 购物车列表放到vuex里了，这里起送价和配送费都是固定的，偷懒w
       ...mapState({
         cart_list: state => state.details_store.cart_list,
+        product_list: state => state.details_store.product_list,
       })
     },
     data() {
@@ -90,7 +98,7 @@
         min_pay: 20,
         send_pay: 4.5,
       }
-    }
+    },
   }
 </script>
 
@@ -103,7 +111,7 @@
     width: 100%;
   }
   .cart_icon_box {
-    background-color: rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, .8);
     border-radius: 50%;
     height: 50px;
     width: 50px;
