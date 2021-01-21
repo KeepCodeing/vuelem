@@ -3,15 +3,17 @@
     flat
     tile
   >
-    <v-container>
-      comment
-    </v-container>
+    <SellerRating />
   </v-card>
 </template>
 
 <script>
+  import SellerRating from "./SellerRating";
   export default {
-    name: "Comment"
+    name: "Comment",
+    components: {
+      SellerRating,
+    }
   }
 </script>
 
