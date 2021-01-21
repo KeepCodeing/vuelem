@@ -4,7 +4,7 @@
     tile
   >
     <v-container>
-      Seller
+      懒狗，暂且不想做
     </v-container>
   </v-card>
 </template>

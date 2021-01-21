@@ -1,0 +1,46 @@
+{
+  "data": [
+    {
+      "avatar": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/banner_wxy.jpg",
+      "name": "我修院",
+      "rating": 5,
+      "date": "2021-1-21",
+      "comment": "非常的新鲜，非常的美味"
+    },
+    {
+      "avatar": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/wxy.jpg",
+      "name": "德川",
+      "rating": 4.7,
+      "date": "2021-1-12",
+      "comment": "服务员很热情，下次还来"
+    },
+    {
+      "avatar": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/udk_whd.jpg",
+      "name": "宇月幸成",
+      "rating": 5,
+      "date": "2021-1-11",
+      "comment": "口感湿润又清甜"
+    },
+    {
+      "avatar": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/ru.jpg",
+      "name": "永田琴乃",
+      "rating": 4,
+      "date": "2021-1-1",
+      "comment": "吃太多了会被杀掉的哦"
+    },
+    {
+      "avatar": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/img8.jpg",
+      "name": "屋形遥",
+      "rating": 4.5,
+      "date": "2020-12-21",
+      "comment": "用户默认好评"
+    },
+    {
+      "avatar": "https://gitee.com/hwz-magicweb/vuetify-advanced/raw/master/images/thanks.jpg",
+      "name": "元发",
+      "rating": 4.6,
+      "date": "2020-02-02",
+      "comment": "嗯，谢谢你"
+    }
+  ]
+}

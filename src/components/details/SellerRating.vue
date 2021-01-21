@@ -3,6 +3,8 @@
     max-width="600"
     class="mx-auto"
     v-if="details['banner'][$route.params.id] !== undefined"
+    tile
+    flat
   >
     <v-list two-line subheader>
       <v-list-item>
@@ -42,7 +44,6 @@
         </v-row>
       </v-list-item>
     </v-list>
-    <v-divider />
   </v-card>
 </template>
 

@@ -9,6 +9,7 @@ export default {
       total_count: 0,
     },
     product_drawer: false,
+    comment_list: [],
   },
   actions,
   mutations,

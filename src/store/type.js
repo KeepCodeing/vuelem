@@ -25,4 +25,7 @@ export const LOAD_SHOP_LIST = 'loadShopList';
 export const GET_PRODUCT_DETAILS = 'getProductDetails';
 export const LOAD_PRODUCT_DETAILS = 'loadProductDetails';
 
+export const GET_COMMENT_LIST = 'getCommentList';
+export const LOAD_COMMENT_LIST = 'loadCommentList';
+
 
